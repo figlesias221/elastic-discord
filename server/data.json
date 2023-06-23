@@ -1,0 +1,37 @@
+{
+  "dataset": [
+    {
+      "text": "Lorem ipsum dolor sit amet",
+      "date": "2023-06-20T08:00:00Z",
+      "channel": "general",
+      "user": "john.doe",
+      "mentions": ["alice", "bob"],
+      "hasLink": true,
+      "hasVideo": false,
+      "hasAudio": true,
+      "isPinned": false
+    },
+    {
+      "text": "Consectetur adipiscing elit",
+      "date": "2023-06-21T12:30:00Z",
+      "channel": "random",
+      "user": "alice",
+      "mentions": ["john.doe"],
+      "hasLink": false,
+      "hasVideo": true,
+      "hasAudio": false,
+      "isPinned": true
+    },
+    {
+      "text": "Sed do eiusmod tempor incididunt",
+      "date": "2023-06-22T15:45:00Z",
+      "channel": "general",
+      "user": "bob",
+      "mentions": [],
+      "hasLink": true,
+      "hasVideo": false,
+      "hasAudio": false,
+      "isPinned": false
+    }
+  ]
+}
